@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calcule Valor Terreno</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://kit.fontawesome.com/85259af0f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="group">
+    <section class="container">
+      <h1><i class="fa-solid fa-calculator"></i>&nbsp;Calcule Valor do Terreno&nbsp;<i
+          class="fa-solid fa-compass-drafting"></i></h1>
+      <form action="/" id="formulario" method="POST">
+        <label for="peso"><i class="fa-solid fa-ruler-horizontal">&nbsp;</i>Largura</label>
+        <input type="text" id="largura" name="largura">
+        <label for="altura"><i class="fa-solid fa-ruler-vertical">&nbsp;</i>Comprimento</label>
+        <input type="text" id="comprimento" name="comprimento">
+        <label for="altura"><i class="fa-solid fa-hand-holding-dollar">&nbsp;</i>Valor Metro Quadrado</label>
+        <input type="text" id="valor" name="valor">
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div id="resultado"></div>
+    </section>
+    <div>
+      <img id="engineer" width="200" src="assets/img/enginner1.png" />
+    </div>
+  </div>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
